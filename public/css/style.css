@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+.bg {
+    background: url('../images/img_bg.jpg') no-repeat;
+    width: 90%;
+    height: 100vh;
+    background-size: 100%;
+}
+
+.form-container {
+    position: absolute;
+    top: 20vh;
+    background-color: #fff;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px #000;
+}
+
+.form-group {
+    position: relative;
+}
+
+.form-group i {
+    position: absolute;
+    top: 1.5vh;
+    left: 2%;
+}
+
+.form-group input {
+    padding-left: 40px;
+}
+
+.form-control {
+    border-radius: 5vh;
+}
+
+/* Partie Admin */
+
+.r-head{
+    padding-top: 15px;
+    height: 15vh;
+    background-color: white;
+}
+
+.img-logo {
+    position: absolute;
+    width: 12%;
+    left: 5vw;
+}
+
+.text-desc{
+    height: 100%;
+    font-family: 'Lato', sans-serif;
+    font-size: xx-large;
+    font-weight: 700;
+    letter-spacing: .5vw;
+}
+
+.img-momo{
+    margin-left: 15%;
+    width: 65%;
+    margin-top: 5%;
+    border-radius: 50%;
+    height: 12vw;
+}
+
+.p-user{
+    /* height: 600px; */
+}
